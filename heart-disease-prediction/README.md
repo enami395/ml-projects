@@ -101,25 +101,6 @@ GridSearchCV avec validation croisée (k=3) pour chaque modèle :
 - **XGBoost** : Algorithme de gradient boosting
 - **Matplotlib/Seaborn** : Visualisation de données
 
-
-## Utilisation
-
-1. Installer les dépendances :
-```bash
-pip install pandas numpy scikit-learn xgboost matplotlib seaborn joblib
-```
-
-2. Exécuter le notebook `heartDiseaseNotebook.ipynb` pour :
-   - Charger et prétraiter les données
-   - Entraîner et évaluer les modèles
-   - Générer des prédictions
-
-3. Charger le modèle sauvegardé :
-```python
-import joblib
-model = joblib.load('xgboost_model.pkl')
-```
-
 ## Conclusion
 
 Le modèle XGBoost a été sélectionné comme meilleur modèle en raison de :
